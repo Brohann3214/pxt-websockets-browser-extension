@@ -100,6 +100,7 @@ const STRING_DATA = 1 << 4;
 const BUFFER_DATA = 1 << 5;
 namespace web {
     //const CHANNEL = "web"
+    const CHANNEL = "wss"
 
     function sendJSON(json: any) {
         const msg = JSON.stringify(json)
